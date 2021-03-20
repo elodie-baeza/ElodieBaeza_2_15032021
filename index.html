@@ -5,18 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen and (max-width: 490px)" href="smallDevice.css">
     <link rel="stylesheet" media="screen and (min-width: 490px)" href="largeDevice.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/d7116bec28.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
-<!-- ************************************ -->
+
 <body>
     <header>
         <a href="#" class="header_item"><img src="images/logo/Reservia@3x.png" alt="Logo de Reservia"></a>
         <a href="#inscription" class="header_item">S'inscrire</a>
         <nav>
-            <a href="#hebergement" class="header_nav_item">Hébergements</a>
+            <a href="#hebergements" class="header_nav_item">Hébergements</a>
             <a href="#activites" class="header_nav_item">Activités</a>
         </nav>
     </header>
+    
+    <section>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form method="post" action="traitement.php">
+            <!-- <p>Texte à l'intérieur du formulaire</p> -->
+            <p class="city_search_container">
+                <input type="submit" class="btn-primary" value="Map">
+                <input type="text" name="ville">
+                <input type="submit" class="btn-primary" value="Rechercher">
+            </p>
+            <p>Filtres</p>
+            <ul class="filtres_list">
+                <li class="filtre_item">Economique</li>
+                <li class="filtre_item">Romantique</li>
+                <li class="filtre_item">Animaux autorisés</li>
+                <li class="filtre_item">Familial</li>
+            </ul>
+        </form>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </section>
+    
+    <section id="hebergements">
+        <a href="auberge_la_cannebiere.html">
+            <section class=hebergement_card>
+                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo_hebergement_cannebiere">
+                <h2>Auberge la Cannebière</h2>
+                <p>Nuit à partir de 25€</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </section>
+        </a>
+        <a href="hotel_du_port.html">
+            <section class=hebergement_card>
+                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo_hebergement_cannebiere">
+                <h2>Hôtel du port</h2>
+                <p>Nuit à partir de 52€</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </section>
+        </a>
+        <a href="hotel_les_mouettes.html">
+            <section class=hebergement_card>
+                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo_hebergement_cannebiere">
+                <h2>Hôtel Les mouettes</h2>
+                <p>Nuit à partir de 76€</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </section>
+        </a>
+        <a href="hotel_de_la_mer.html">
+            <section class=hebergement_card>
+                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo_hebergement_cannebiere">
+                <h2>Hôtel de la mer</h2>
+                <p>Nuit à partir de 46€</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </section>
+        </a>
+        <a href="auberge_le_panier.html">
+            <section class=hebergement_card>
+                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo_hebergement_cannebiere">
+                <h2>Auberge le Panier</h2>
+                <p>Nuit à partir de 23€</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </section>
+        </a>
+        <a href="hotel_chez_amina.html">
+            <section class=hebergement_card>
+                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo_hebergement_cannebiere">
+                <h2>Hôtel chez Amina</h2>
+                <p>Nuit à partir de 96€</p>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </section>
+        </a>
+    </section>
+    
+    <section class="activites_container">
+        <articles>
+            
+        </articles>
+    </section>
+    
+    <aside class="populaires_container">
+        
+    </aside>
+    
+    <footer>
+        <ul>
+            <li class="footer_titre_list"><h2>A propos</h2></li>
+            <li class="footer_titre_list">
+                <a href="fonctionnement_du_site.html">Fonctionnement du site</a>
+            </li>
+            <li class="footer_titre_list">
+                <a href="CGV.html">Conditions générales de vente</a>
+            </li>
+            <li class="footer_titre_list">
+                <a href="donnees_confidentialite.html">Données et confidentialité</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="footer_titre_list"><h2>Nos hébergements</h2></li>
+            <li class="footer_titre_list">
+                <a href="charte_qualite.html">Charte qualité</a>
+            </li>
+            <li class="footer_titre_list">
+                <a href="soumettre_votre_hotel.html">Soumettre votre hôtel</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="footer_titre_list"><h2>Assistance</h2></li>
+            <li class="footer_titre_list">
+                <a href="centre_d_aide.html">Centre d'aide</a>
+            </li>
+            <li class="footer_titre_list">
+                <a href="mailto:nom@bidule.com">Nous contacter</a>
+            </li>
+        </ul>
+    </footer>
+    
 </body>
 </html>
