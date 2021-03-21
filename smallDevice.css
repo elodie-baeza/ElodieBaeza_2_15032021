@@ -10,11 +10,18 @@ body{
   margin: 0;
 }
 
-*{
-  font-family: raleway, sans-serif;
+h2, p{
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
 }
 
-@media only screen and (max-width: 490px){
+*{
+  text-decoration: none;
+  font-family: raleway, sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 650px){
     
   header{
     display: flex;
@@ -27,7 +34,6 @@ body{
   a.header_item{
     font-weight: bold;
     font-size: 1em;
-    text-decoration: none;
     color: #0065FC;
     padding: 20px;
   }
@@ -43,7 +49,6 @@ body{
   
   .header_nav_item{
     font-size: 1em;
-    text-decoration: none;
     text-align: center;
     border-bottom: 5px solid #f2f2f2;
     width: 50%;
@@ -54,6 +59,78 @@ body{
   a.header_nav_item:hover{
     color: #0065FC;
     border-bottom: 5px solid #0065FC;
+  }
+  
+/* ************************hébergements*************************** */
+  .hebergements_container{
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  .hebergement_card{
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 370px;
+    align-items: center;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 2em;
+    margin: 20px;
+  }
+
+  .hebergement_card_title{
+    width: 100%;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* section.hebergement_card img{ */
+    /* background-size: cover; */
+    /* border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em; */
+    /* width: 100%; */
+  }
+
+  h1{
+    margin-block-end: 0em;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .fa-star{
+    color: #0065FC;
+  }
+
+  /* *********3 etoiles***************** */
+  .tree_stars{
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+  }
+  .tree_stars .fa-star:nth-child(4){
+    color: gray;
+  }
+  .tree_stars .fa-star:nth-child(5){
+    color: gray;
+  }
+
+    /* *********4 etoiles***************** */
+  .four_stars{
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+  }
+
+  .four_stars .fa-star:nth-child(5){
+    color: gray;
+  }
+  /* *********4 etoiles***************** */
+  .five_stars{
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
   }
   
 }

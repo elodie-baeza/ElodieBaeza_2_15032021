@@ -13,7 +13,7 @@ body{
     font-family: raleway, sans-serif;
 }
 
-@media screen and (min-width: 490px){
+@media screen and (min-width: 650px){
         
     header{
         display: flex;
