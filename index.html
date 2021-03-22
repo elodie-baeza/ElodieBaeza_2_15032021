@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen and (max-width: 767.98px)" href="smallDevice.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="largeDevice.css">
+    <script src="https://kit.fontawesome.com/d7116bec28.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">   
+    <title>Reservia</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo"><img src="images/logo/Reservia@3x.png" alt="Logo de Reservia"></a>
+        <a href="inscription.html" id="s_inscrire">S'inscrire</a>
+        <nav>
+            <a href="#hebergements">Hébergements</a>
+            <a href="#activites">Activités</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form method="post" action="traitement.php">
+                <!-- <p>Texte à l'intérieur du formulaire</p> -->
+                <p class="city_search_container">
+                    <input type="submit" class="btn-primary" value="Map">
+                    <input type="text" name="ville">
+                    <input type="submit" class="btn-primary" value="Rechercher">
+                </p>
+                <p>Filtres</p>
+                <ul class="filtres_list">
+                    <li class="filtre_item">Economique</li>
+                    <li class="filtre_item">Romantique</li>
+                    <li class="filtre_item">Animaux autorisés</li>
+                    <li class="filtre_item">Familial</li>
+                </ul>
+            </form>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
+    </main>
+
+    <footer>
+        <h2 >A propos</h2>
+        <ul>
+            <li ><a href="fonctionnement_du_site.html">Fonctionnement du site</a></li>
+            <li ><a href="CGV.html">Conditions générales de vente</a></li>
+            <li ><a href="donnees_confidentialite.html">Données et confidentialité</a></li>
+        </ul>
+
+        <h2>Nos hébergements</h2>
+        <ul>
+            <li ><a href="charte_qualite.html">Charte qualité</a></li>
+            <li ><a href="soumettre_votre_hotel.html">Soumettre votre hôtel</a></li>
+        </ul>
+        
+        <h2>Assistance</h2>
+        <ul>
+            <li ><a href="centre_d_aide.html">Centre d'aide</a></li>
+            <li ><a href="mailto:nom@bidule.com">Nous contacter</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
