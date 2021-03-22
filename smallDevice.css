@@ -1,50 +1,7 @@
-/* Définition des polices personnalisées */
-@font-face{
-  font-family: "raleway";
-  src:url("/fonts/Raleway/Raleway-VariableFont_wght.ttf"), 
-  url("/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
-}
-
-/* *********************body************************** */
   *{
     text-decoration: none;
     font-family: raleway, sans-serif;
     color: black;
-  }
-
-  body{
-    padding: 0;
-    margin: 0;
-  }
-
-  h1{
-    margin-block-end: 0em;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-
-  h2{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-top: 2em;
-    padding: 2em 1em 1em 1em;
-    font-weight: 700;
-    font-size: xx-large;
-  }
-
-  p{
-    margin-block-start: 0.3em;
-    margin-block-end: 0.3em;
-  }
-
-
-  ul{
-    list-style: none;
-  }
-
-  .fa-star{
-    color: #0065FC;
   }
 
 @media only screen and (max-width: 767.98px){
@@ -52,146 +9,41 @@
   /* ***************************HEADER************************ */
   header{
     display: flex;
-    background-color: white;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
   
-  a.header_item{
+  #logo img{
+    width: 5.5em;
+    padding: 20px;
+  }
+
+  #s_inscrire{
     font-weight: bold;
     font-size: 1em;
     color: #0065FC;
+    text-align: center;
     padding: 20px;
   }
   
-  a.header_item img{
-    width: 5.5em;
-  }
-  
-  header nav{
+  header>nav{
     display: flex;
     width: 100%;
   }
-  
-  .header_nav_item{
+
+  header>nav>a{
     font-size: 1em;
     text-align: center;
     border-bottom: 5px solid #f2f2f2;
     width: 50%;
     color: black;
-    padding: 20px;
+    padding: 10px;
   }
   
-  a.header_nav_item:hover{
+  header>nav>a:hover{
     color: #0065FC;
     border-bottom: 5px solid #0065FC;
   }
-
-/* *********3 etoiles***************** */
-    .tree_stars{
-      margin-block-start: 0.5em;
-      margin-block-end: 0.5em;
-    }
-    .tree_stars .fa-star:nth-child(4){
-      color: gray;
-    }
-    .tree_stars .fa-star:nth-child(5){
-      color: gray;
-    }
-  
-/* *********4 etoiles***************** */
-    .four_stars{
-      margin-block-start: 0.5em;
-      margin-block-end: 0.5em;
-    }
-  
-    .four_stars .fa-star:nth-child(5){
-      color: gray;
-    }
-  
- /* *********4 etoiles***************** */
-    .five_stars{
-      margin-block-start: 0.5em;
-      margin-block-end: 0.5em;
-    }  
-  
-/* ************************hébergements*************************** */
-  .container{
-    background-color: white;
-    width: 100%;
-  }
-  .thumbnail{
-    display: flex;
-    flex-direction: column-reverse;
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 700px;
-    height: 300px;
-    align-items: center;
-    background-color: white;
-    border: 8px solid white;
-    box-shadow: 0px 15px 15px #f2f2f2;
-    border-radius: 2em;
-    margin: 20px;
-  }
-
-  .thumbnail_title{
-    width: 100%;
-    background-color: white;
-    padding-left: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-  }
-
-  #afficher_plus{
-    margin-block-start: 1em;
-    margin-block-end: 2em;
-    margin-inline-start: 20px;
-  }
-
-/* ************************les plus populaires*************************** */
-  .aside_container{
-    background-color: #f2f2f2;
-    width: 100%;
-  }
-  .aside_thumbnail{
-    display: flex;
-    flex-direction: row-reverse;
-    background-size:cover;
-    background-position-x:initial;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 250px;
-    align-items: center;
-    background-color: white;
-    border: 8px solid white;
-    border-radius: 2em;
-    margin: 20px;
-  }
-
-  /* .aside_thumbnail_title{
-    width: 50%;
-    height: 100%;
-    background-color: white;
-    padding-left: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-  } */
-
-  /* *****************footer************************* */
-
-  .footer_list{
-    margin-block-start: 0.7em;
-    margin-block-end: 0.7em;
-  }
-
-  .footer_list_title{
-    margin-block-start: 2em;
-    margin-block-end: 1em;
-  }
-
 }

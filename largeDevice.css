@@ -1,63 +1,50 @@
-/* Définition des polices personnalisées */
-@font-face{
-    font-family: "raleway";
-    src:url("/fonts/Raleway/Raleway-VariableFont_wght.ttf"), url("/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
-}
+*{
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    color: black;
+  }
 
 body{
-    padding: 0;
-    margin: 0;
-}
-
-*{
-    font-family: raleway, sans-serif;
+    margin: 0 50px 50px 50px
 }
 
 @media screen and (min-width: 768px){
-        
-    header{
-        display: flex;
-        background-color: white;
-        align-items: center;
-    }
 
-    a.header_item{
-        font-family: raleway, sans-serif;
-        font-weight: bold;
-        font-size: 1em;
-        text-decoration: none;
-        color: #0065FC;
-        padding-right: 50px;
-        padding-left: 50px;
-    }
+  /* ***************************HEADER************************ */
+  header{
+    display: flex;
+    width: 100%;
+    align-items:center;
+  }
+  
+  #logo{
+      flex: auto;
+  }
 
-    a.header_item:nth-child(1){
-        flex: auto;
-    }
+  #logo img{
+    width: 5.5em;
+  }
 
-    a.header_item:nth-child(2){
-        order: 1;
-    }
+  #s_inscrire{
+    order: 1;
+    font-weight: bold;
+    font-size: 1em;
+    color: #0065FC;
+  }
+  
+  header>nav{
+      margin: 25px;
+  }
 
-    a.header_item img{
-        width: 5.5em;
-    }
-
-    header nav{
-        display: flex;
-    }
-
-    .header_nav_item{
-        font-family: raleway, sans-serif;
-        font-size: 1em;
-        text-decoration: none;
-        color: black;
-        padding: 30px;
-    }
-
-    a.header_nav_item:hover{
-        color: #0065FC;
-        border-top: 3px solid #0065FC;
-    }
-
+  header>nav>a{
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    padding: 20px;
+  }
+  
+  header>nav>a:hover{
+    color: #0065FC;
+    border-top: 5px solid #0065FC;
+  }
 }
