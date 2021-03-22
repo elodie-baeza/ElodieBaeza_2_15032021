@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="screen and (max-width: 650px)" href="smallDevice.css">
-    <link rel="stylesheet" media="screen and (min-width: 650px)" href="largeDevice.css">
+    <link rel="stylesheet" media="screen and (max-width: 767.98px)" href="smallDevice.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="largeDevice.css">
     <script src="https://kit.fontawesome.com/d7116bec28.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -18,6 +18,7 @@
             <a href="#activites" class="header_nav_item">Activités</a>
         </nav>
     </header>
+
     
     <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -40,12 +41,29 @@
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
     
-    <section class="hebergements_container">
-        <h1 id="hebergements">Hébergements à Marseille</h1>
+    <aside class="aside_container"><h2>Les plus populaires</h2>
+        <a href="le_soleil.html">
+            <section class="aside_thumbnail" style="background-image:url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)" alt="photo hotel le soleil le matin">
+                <div class="aside_thumbnail_title">
+                    <h2>Hôtel Le soleil du matin</h2>
+                    <p>Nuit à partir de 128€</p>
+                    <div class="four_stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </section>
+        </a>
+    </aside>
+
+    <section class="container"><h1 id="hebergements">Hébergements à Marseille</h1>
         
         <a href="auberge_la_cannebiere.html">
-            <section class="hebergement_card" style="background-image:url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo_auberge_la_cannebiere">
-                <div class="hebergement_card_title">
+            <section class="thumbnail" style="background-image:url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)" alt="photo_auberge_la_cannebiere">
+                <div class="thumbnail_title">
                     <h2>Auberge la Cannebière</h2>
                     <p>Nuit à partir de 25€</p>
                     <div class="four_stars">
@@ -60,8 +78,8 @@
         </a>
         
         <a href="hotel_du_port.html">
-            <section class="hebergement_card" style="background-image:url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo_hotel_du_port">
-                <div class="hebergement_card_title">
+            <section class="thumbnail" style="background-image:url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg)" alt="photo_hotel_du_port">
+                <div class="thumbnail_title">
                     <h2>Hôtel du port</h2>
                     <p>Nuit à partir de 52€</p>
                     <div class="five_stars">
@@ -76,8 +94,8 @@
         </a>
         
         <a href="hotel_les_mouettes.html">
-            <section class="hebergement_card" style="background-image:url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo_hotel_les_mouettes">
-                <div class="hebergement_card_title">
+            <section class="thumbnail" style="background-image:url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg)" alt="photo_hotel_les_mouettes">
+                <div class="thumbnail_title">
                     <h2>Hôtel Les mouettes</h2>
                     <p>Nuit à partir de 76€</p>
                     <div class="four_stars">
@@ -92,8 +110,8 @@
         </a>
         
         <a href="hotel_de_la_mer.html">
-            <section class="hebergement_card" style="background-image:url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo_hotel_de_la_mer">
-                <div class="hebergement_card_title">
+            <section class="thumbnail" style="background-image:url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg)" alt="photo_hotel_de_la_mer">
+                <div class="thumbnail_title">
                     <h2>Hôtel de la mer</h2>
                     <p>Nuit à partir de 46€</p>
                     <div class="tree_stars">
@@ -108,8 +126,8 @@
         </a>
         
         <a href="auberge_le_panier.html">
-            <section class="hebergement_card" style="background-image:url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo_auberge_le_panier">
-                <div class="hebergement_card_title">
+            <section class="thumbnail" style="background-image:url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg)" alt="photo_auberge_le_panier">
+                <div class="thumbnail_title">
                     <h2>Hôtel Le Panier</h2>
                     <p>Nuit à partir de 23€</p>
                     <div class="four_stars">
@@ -126,8 +144,8 @@
         </a>
         
         <a href="hotel_chez_amina.html">
-            <section class="hebergement_card" style="background-image:url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)" alt="photo_hotel_chez_amina">
-                <div class="hebergement_card_title">
+            <section class="thumbnail" style="background-image:url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg)" alt="photo_hotel_chez_amina">
+                <div class="thumbnail_title">
                     <h2>Hôtel chez Amina</h2>
                     <p>Nuit à partir de 96€</p>
                     <div class="five_stars">
@@ -141,50 +159,71 @@
             </section>
         </a>
         
+        <a href="Afficher plus.html"><h2 id="afficher_plus">Afficher plus</h2></a>
     </section>
     
-    <section class="activites_container">
-        <h2 id="activites">Activités à Marseille</h2>
-        <articles>
-            
-        </articles>
+    <section class="container"><h2 id="activites">Activités à Marseille</h2>
+
+        <a href="vieux_port.html">
+            <section class="thumbnail" style="background-image:url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)" alt="photo_vieux_port">
+                <div class="thumbnail_title">
+                    <h2>Vieux Port</h2>
+                </div>
+            </section>
+        </a>
+
+        <a href="fort_pomegues.html">
+            <section class="thumbnail" style="background-image:url(images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg)" alt="fort_de_pomegues">
+                <div class="thumbnail_title">
+                    <h2>Fort de Pomègues</h2>
+                </div>
+            </section>
+        </a>
+
+        <a href="iles_frioul.html">
+            <section class="thumbnail" style="background-image:url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)" alt="iles de frioul">
+                <div class="thumbnail_title">
+                    <h2>Îles du Frioul</h2>
+                </div>
+            </section>
+        </a>
+
+        <a href="notre_dame_de_la_garde.html">
+            <section class="thumbnail" style="background-image:url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg)" alt="photo des Calanques">
+                <div class="thumbnail_title">
+                    <h2>Notre Dame de la Garde</Canvas></h2>
+                </div>
+            </section>
+        </a>
+
+        <a href="longchamp.html">
+            <section class="thumbnail" style="background-image:url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg)" alt="photo parc Longchamp">
+                <div class="thumbnail_title">
+                    <h2>Parc Longchamp</h2>
+                </div>
+            </section>
+        </a>
+
     </section>
-    
-    <aside class="populaires_container">
-        <h2>Les plus populaires</h2>
         
-    </aside>
-    
     <footer>
         <ul>
-            <li class="footer_titre_list"><h2>A propos</h2></li>
-            <li class="footer_titre_list">
-                <a href="fonctionnement_du_site.html">Fonctionnement du site</a>
-            </li>
-            <li class="footer_titre_list">
-                <a href="CGV.html">Conditions générales de vente</a>
-            </li>
-            <li class="footer_titre_list">
-                <a href="donnees_confidentialite.html">Données et confidentialité</a>
-            </li>
+            <h2 class="footer_list_title">A propos</h2>
+            <li class="footer_list"><a href="fonctionnement_du_site.html">Fonctionnement du site</a></li>
+            <li class="footer_list"><a href="CGV.html">Conditions générales de vente</a></li>
+            <li class="footer_list"><a href="donnees_confidentialite.html">Données et confidentialité</a></li>
         </ul>
+
         <ul>
-            <li class="footer_titre_list"><h2>Nos hébergements</h2></li>
-            <li class="footer_titre_list">
-                <a href="charte_qualite.html">Charte qualité</a>
-            </li>
-            <li class="footer_titre_list">
-                <a href="soumettre_votre_hotel.html">Soumettre votre hôtel</a>
-            </li>
+            <h2 class="footer_list_title">Nos hébergements</h2>
+            <li class="footer_list"><a href="charte_qualite.html">Charte qualité</a></li>
+            <li class="footer_list"><a href="soumettre_votre_hotel.html">Soumettre votre hôtel</a></li>
         </ul>
+
         <ul>
-            <li class="footer_titre_list"><h2>Assistance</h2></li>
-            <li class="footer_titre_list">
-                <a href="centre_d_aide.html">Centre d'aide</a>
-            </li>
-            <li class="footer_titre_list">
-                <a href="mailto:nom@bidule.com">Nous contacter</a>
-            </li>
+            <h2 class="footer_list_title">Assistance</h2>
+            <li class="footer_list"><a href="centre_d_aide.html">Centre d'aide</a></li>
+            <li class="footer_list"><a href="mailto:nom@bidule.com">Nous contacter</a></li>
         </ul>
     </footer>
     
