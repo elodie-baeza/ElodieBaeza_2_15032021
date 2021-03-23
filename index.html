@@ -26,20 +26,32 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <form method="post" action="traitement.php">
-                <span id="search_bar">
+                <div id="search_bar">
                     <!-- <input type="submit" class="btn-primary" value="Map"> -->
                     <a href="https://www.google.fr/maps?hl=fr&tab=rl"> <i class="fa fa-map-marker" aria-hidden="true"></i></a>
                     <input type="text" name="ville">
                     <!-- <input type="submit" class="btn-primary" value="Rechercher"> -->
                     <a href="rechercher.php"> <i class="fa fa-search" aria-hidden="true"></i></a>
-                </span>
-                <p>Filtres</p>
-                <nav id="filtres">
-                    <p>Economique</p>
-                    <p>Romantique</p>
-                    <p>Animaux autorisés</p>
-                    <p>Familial</p>
-                </nav>
+                </div>
+                <p><strong>Filtres</strong></p>
+                <div id="filtres">
+                    <div>
+                        <i class="fas fa-money-bill-wave-alt"></i>
+                        <p><strong>Economique</strong></p>
+                    </div>
+                    <div>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        <p><strong>Romantique</strong></p>
+                    </div>
+                    <div>
+                        <i class="fas fa-dog"></i>
+                        <p><strong>Animaux autorisés</strong></p>
+                    </div>
+                    <div>
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        <p><strong>Familial</strong></p>
+                    </div>
+                </div>
             </form>
             <div>
 
