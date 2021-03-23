@@ -64,8 +64,8 @@ footer{
   #search_bar input{
     outline: none;
     border-color: transparent;
-    padding-inline-start: 60px;
-    padding-inline-end: 60px;
+    /* padding-inline-start: 60px; */
+    /* padding-inline-end: 60px; */
     padding-top: 15px;
     padding-bottom: 15px;
     border-top: 2px solid #f2f2f2;
@@ -125,8 +125,8 @@ footer{
   }
 
   #filtres>div strong{
-    padding-inline: 15px;
-    padding-inline-start: 60px;
+    padding-right: 15px;
+    padding-left: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -167,7 +167,7 @@ footer{
   }
   
   footer>ul{
-    padding-inline-start: 0;
+    /* padding-inline-start: 0; */
   }
 
   footer li{
