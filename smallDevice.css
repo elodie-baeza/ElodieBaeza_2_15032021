@@ -2,6 +2,7 @@
     text-decoration: none;
     font-family: raleway, sans-serif;
     color: black;
+    list-style: none;
   }
 
   body{
@@ -60,28 +61,26 @@
     border-bottom: 5px solid #0065FC;
   }
 
-  footer{
-    background-color: #f2f2f2;
-  }
-
-  #search_bar{
-    width: min-content;
-    display: flex;
-    border-top: 2px solid #f2f2f2;
-    border-bottom: 2px solid #f2f2f2;
-    border-radius: 30px;
-    justify-content:left;
-    align-items: center;
+  #ville_et_filtres>form>p{
+    margin-top: 30px;
   }
 
   #search_bar input{
+    outline: none;
     border-color: transparent;
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-radius: 30px;
     font-weight: bold;
     font-size: medium;
   }
 
   .fa-map-marker{
-    /* font-size: 1.5em; */
+    position:absolute;
     padding: 15px;
     background-color: #f2f2f2;
     border: 4px solid #f2f2f2;
@@ -90,6 +89,8 @@
   }
 
   .fa-search{
+    position: absolute;
+    left: 300px;
     color: white;
     padding: 15px;
     background-color: #0065FC;
@@ -99,27 +100,66 @@
 
   #filtres{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 300px;
   }
 
-  #filtres>div>p{
-    padding: 15px;
-    white-space: nowrap;
-  }
-
-  #filtres>div>i{
+  #filtres i{
+    position: absolute;
     color: #0065FC;
+    font-size: 1em;
     padding: 15px;
     background-color: #DEEBFF;
-    border: 4px solid #DEEBFF;
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
-  #filtres>div{
-    width:min-content;
-    align-items: center;
+  #filtres strong{
+    padding-inline: 15px;
+    padding-inline-start: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  #filtres p{
     display: flex;
+    white-space: nowrap;
+    align-items: center;
+    border: 4px solid #f2f2f2;
+    border-radius: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+
+  #info_search_result{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #info_search_result p{
+    padding-left: 10px;
+    margin-top: 8px;
+  }
+
+  #info_search_result i{
+    color: #0065FC;
+    line-height: normal;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+  }
+
+  footer{
+    background-color: #f2f2f2;
+  }
+
+  footer>ul{
+    padding-inline-start: 0;
+  }
+
+  footer li{
+    padding-bottom: 1em;
   }
 }
