@@ -77,6 +77,7 @@
     border-radius: 30px;
     font-weight: bold;
     font-size: medium;
+    margin-bottom: 30px;
   }
 
   .fa-map-marker{
@@ -86,6 +87,10 @@
     border: 4px solid #f2f2f2;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+  }
+
+  .btn-primary{
+    display: none;
   }
 
   .fa-search{
@@ -103,7 +108,10 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-
+  #filtres>p{
+    border:none;
+    width: 100%;
+  }
   #filtres i{
     position: absolute;
     color: #0065FC;
@@ -113,7 +121,7 @@
     border-radius: 50%;
   }
 
-  #filtres strong{
+  #filtres>div strong{
     padding-inline: 15px;
     padding-inline-start: 60px;
     padding-top: 10px;
@@ -121,7 +129,7 @@
   }
 
 
-  #filtres p{
+  #filtres>div p{
     display: flex;
     white-space: nowrap;
     align-items: center;
@@ -135,7 +143,6 @@
   #info_search_result{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
   }
 
   #info_search_result p{
