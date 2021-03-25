@@ -157,4 +157,41 @@ header, main{
     border-radius: 50%;
   }
 
+  /* *******************************figure.hebergements*********************************** */
+  #herbergements{
+    display: flex;
+  }
+  
+  figure{
+    width:fit-content;
+    margin: 0;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  figure.cardHebergement{
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+  }
+
+  figure.cardHebergement h2{
+    padding: 0.4rem 0.4rem 0 0;
+    margin: 0rem;
+    font-size: 1.2rem;
+  }
+
+  figure.cardHebergement p{
+    padding: 0.4rem 0.4rem 0 0;
+  }
+
+  figure.cardHebergement img{
+    width: 22rem;
+    height: 11rem;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+  }
+  /* *******************************figure.hebergements*********************************** */
+
 }
