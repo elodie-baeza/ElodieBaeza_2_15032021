@@ -24,10 +24,11 @@ header, main{
   
   #logo{
       flex: auto;
+      padding: 20px;
   }
 
   #logo img{
-    width: 5.5em;
+    width: 6em;
   }
 
   #s_inscrire{
@@ -37,15 +38,16 @@ header, main{
     color: #0065FC;
   }
   
-  header>nav{
-      margin: 25px;
+  header a{
+      padding: 30px;
   }
 
   header>nav>a{
     font-size: 1em;
     text-align: center;
+    border-top: 5px solid transparent;
     color: black;
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   header>nav>a:hover{
