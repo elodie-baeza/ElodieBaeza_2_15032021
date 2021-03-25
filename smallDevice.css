@@ -64,8 +64,7 @@
   #search_bar input{
     outline: none;
     border-color: transparent;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 60px 15px 60px;
     border-top: 2px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
     border-radius: 30px;
