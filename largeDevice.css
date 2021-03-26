@@ -158,8 +158,21 @@ header, main{
   }
 
   /* *******************************figure.hebergements*********************************** */
-  #herbergements{
+  #hebergements{
     display: flex;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 2rem;
+    width: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #hebergements h1:nth-child(1){
+    width: 100%;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
   }
   
   figure{
@@ -170,28 +183,46 @@ header, main{
   }
 
   figure.cardHebergement{
-    padding: 0.4rem 0.4rem 1rem 0.4rem;
+    padding:0.4rem 0.4rem 1rem 0.4rem;
+    margin:0.5em;
     border-radius: 1rem;
     margin-bottom: 1.2rem;
-    box-shadow: 0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
   }
 
-  figure.cardHebergement h2{
-    padding: 0.4rem 0.4rem 0 0;
-    margin: 0rem;
-    font-size: 1.2rem;
+  figure.cardHebergement h3{
+    padding:0.4rem 0 0 1rem;
+    margin:0rem;
+    font-size: 1rem;
   }
 
   figure.cardHebergement p{
-    padding: 0.4rem 0.4rem 0 0;
+    padding-left: 1rem;
+    margin:0.5rem 0 0.5rem 0;
+    font-size: 1rem;
   }
 
   figure.cardHebergement img{
-    width: 22rem;
-    height: 11rem;
+    width: 15rem;
+    height: 8rem;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
   }
+  
+  .fa-star{
+    color: #0065FC;
+    font-size: 0.8rem;
+  }
+
+  figcaption i:nth-child(3){
+    padding-left: 1rem;
+  }
+
+  .fa-star + .grey{
+    color: gainsboro;
+  }
+
+
   /* *******************************figure.hebergements*********************************** */
 
 }
