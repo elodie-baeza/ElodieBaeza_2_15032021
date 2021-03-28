@@ -99,6 +99,10 @@ header, main{
     color: white;
   }
 
+  #VilleFiltres{
+    flex: auto;
+  }
+
   #filtres{
     display: flex;
     flex-direction: row;
@@ -169,7 +173,7 @@ header, main{
     justify-content: space-around;
   }
 
-  #hebergements h1:nth-child(1){
+  #hebergements>h1, #hebergements>h3{
     width: 100%;
     padding-left: 2rem;
     margin-bottom: 0.5rem;
@@ -182,27 +186,27 @@ header, main{
     flex-direction: column; */
   }
 
-  figure.cardHebergement{
-    padding:0.4rem 0.4rem 1rem 0.4rem;
+  .cardHebergement{
+    padding:0.4rem 0.4rem 0.4rem 0.4rem;
     margin:0.5em;
     border-radius: 1rem;
     margin-bottom: 1.2rem;
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
   }
 
-  figure.cardHebergement h3{
+  .cardHebergement h3{
     padding:0.4rem 0 0 1rem;
     margin:0rem;
     font-size: 1rem;
   }
 
-  figure.cardHebergement p{
+  .cardHebergement p{
     padding-left: 1rem;
     margin:0.5rem 0 0.5rem 0;
     font-size: 1rem;
   }
 
-  figure.cardHebergement img{
+  .cardHebergement img{
     width: 15rem;
     height: 8rem;
     border-radius: 1rem 1rem 0 0;
@@ -222,7 +226,65 @@ header, main{
     color: gainsboro;
   }
 
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
 
-  /* *******************************figure.hebergements*********************************** */
+  main aside{
+    order: 1;
+  }
 
+    /* *************************figure.populaires*********************************** */
+    #lesPlusPopulaires{
+      background-color: #f2f2f2;
+      margin: 0;
+      width: 30%;
+      border-radius: 2rem;
+    }
+  
+    aside h1{
+      padding-top: 1rem;
+      padding-left: 1rem;
+    }
+  
+    aside figure{
+      background-color: white;
+      margin-left: 20px;
+      margin-right: 20px;
+      /* padding-bottom: 2rem; */
+    }
+    
+    .cardPop{
+      display: flex;
+      padding:0.4rem 0.4rem 0.4rem 0.4rem;
+      margin-bottom: 1.5rem;
+      border-radius: 1rem;
+      /* margin-bottom: 1.2rem; */
+      box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    }
+  
+    .cardPop h3{
+      padding:0.4rem 0 0 1rem;
+      margin:0rem;
+      font-size: 1.3rem;
+    }
+  
+    .cardPop p{
+      padding:0.4rem 0 0 1rem;
+      margin:0.5rem 0 0.5rem 0;
+    }
+  
+    .cardPop img{
+      width: 40%;
+      height: 150px;
+      border-radius:1rem 0 0 1rem;
+      object-fit: cover;
+    }
+
+    .cardPop .fa-star{
+      padding-top: 2.5rem;
+    }  
+  
 }
