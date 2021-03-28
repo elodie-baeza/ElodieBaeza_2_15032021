@@ -6,7 +6,8 @@
   }
 
 body{
-    margin:0;
+    margin:auto;
+    max-width: 1600px;
 }
 
 header, main{
@@ -61,23 +62,23 @@ header, main{
 
   #search_bar input{
     outline: none;
+    position: relative;
+    right: 0.5rem;
     border-color: transparent;
-    padding: 15px 60px 15px 60px;
+    padding: 1rem 3rem 1rem 3rem;
     border-top: 2px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
-    border-radius: 30px;
     font-weight: bold;
     font-size: medium;
     margin-bottom: 30px;
   }
 
   .fa-map-marker{
-    position:absolute;
-    padding: 15px;
+    padding: 1rem;
     background-color: #f2f2f2;
     border: 4px solid #f2f2f2;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .fa-search::before{
@@ -85,8 +86,8 @@ header, main{
   }
 
   .btn-primary{
-  position: absolute;
-  left: 300px;
+  position: relative;
+  left: -2rem;
   color: white;
   padding: 15px;
   background-color: #0065FC;
@@ -151,6 +152,7 @@ header, main{
   #info_search_result p{
     padding-left: 10px;
     margin-top: 8px;
+    margin-bottom: 2rem;
   }
 
   #info_search_result i{
@@ -176,7 +178,7 @@ header, main{
   #hebergements>h1, #hebergements>h3{
     width: 100%;
     padding-left: 2rem;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
   }
   
   figure{
@@ -187,6 +189,8 @@ header, main{
   }
 
   .cardHebergement{
+    display:flex;
+    flex-direction: column;
     padding:0.4rem 0.4rem 0.4rem 0.4rem;
     margin:0.5em;
     border-radius: 1rem;
@@ -194,10 +198,10 @@ header, main{
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
   }
 
-  .cardHebergement h3{
+  .cardHebergement h3, .cardPop h3{
     padding:0.4rem 0 0 1rem;
     margin:0rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .cardHebergement p{
@@ -207,8 +211,8 @@ header, main{
   }
 
   .cardHebergement img{
-    width: 15rem;
-    height: 8rem;
+    width: 250px;
+    height: 125px;
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
   }
@@ -237,16 +241,17 @@ header, main{
   }
 
     /* *************************figure.populaires*********************************** */
-    #lesPlusPopulaires{
+    aside{
       background-color: #f2f2f2;
+      padding: 1rem;
       margin: 0;
       width: 30%;
       border-radius: 2rem;
     }
   
     aside h1{
-      padding-top: 1rem;
-      padding-left: 1rem;
+      padding-top: 0;
+      padding-left: 2rem;
     }
   
     aside figure{
@@ -265,11 +270,11 @@ header, main{
       box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
     }
   
-    .cardPop h3{
+    /* .cardPop h3{
       padding:0.4rem 0 0 1rem;
       margin:0rem;
-      font-size: 1.3rem;
-    }
+      font-size: 1.2rem;
+    } */
   
     .cardPop p{
       padding:0.4rem 0 0 1rem;
