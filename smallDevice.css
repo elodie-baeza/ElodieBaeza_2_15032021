@@ -277,5 +277,23 @@
     object-fit: cover;
     border-radius:1rem 1rem 0 0;
   }
+  /* ************************FOOTER********************************** */
+  footer{
+    background-color: #f2f2f2;
+  }
+
+  footer strong{
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 0;;
+  }
+
+  footer li{
+    padding-top: 1rem;
+  }
+
+  footer ul:last-child li:last-child{
+    padding-bottom: 2rem;
+  }
 
 }
