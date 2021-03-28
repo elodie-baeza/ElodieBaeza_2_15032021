@@ -249,6 +249,33 @@
 
   .cardPop .fa-star{
     padding-top: 2rem;
-  }  
+  }
+  
+  /* ************************ACTIVITES*************************** */
+  #activites{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #activites figure{
+    margin: 0;
+    margin-bottom: 1.5rem;
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    border-radius: 1rem;
+  }
+
+  #activites p{
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  #activites img{
+    width: 100%;
+    height: 9rem;
+    object-fit: cover;
+    border-radius:1rem 1rem 0 0;
+  }
 
 }
