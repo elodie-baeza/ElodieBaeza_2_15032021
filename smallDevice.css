@@ -1,10 +1,3 @@
-  *{
-    text-decoration: none;
-    font-family: raleway, sans-serif;
-    color: black;
-    list-style: none;
-  }
-
   body{
     margin: 0;
   }
@@ -18,22 +11,12 @@
 
   /* ***************************HEADER************************ */
   header{
-    display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-  }
-  
-  #logo img{
-    width: 6em;
-    padding: 20px;
   }
 
   #s_inscrire{
-    font-weight: bold;
-    font-size: 1em;
-    color: #0065FC;
     text-align: center;
     padding: 20px;
   }
@@ -44,47 +27,18 @@
   }
 
   header>nav>a{
-    font-size: 1em;
-    text-align: center;
     border-bottom: 5px solid transparent;
     width: 50%;
-    color: black;
     padding: 10px;
-  }
-  
-  header>nav>a:hover{
-    color: #0065FC;
-    border-bottom: 5px solid #0065FC;
-  }
-
-  #ville_et_filtres>form>p{
-    margin-top: 30px;
-  }
-
-  #search_bar input{
-    outline: none;
-    position: relative;
-    right: 0.5rem;
-    border-color: transparent;
-    padding: 1rem 3rem 1rem 3rem;
-    border-top: 2px solid #f2f2f2;
-    border-bottom: 2px solid #f2f2f2;
-    font-weight: bold;
-    font-size: medium;
-    margin-bottom: 30px;
-  }
-
-  .fa-map-marker{
-    padding: 1rem;
-    background-color: #f2f2f2;
-    border: 4px solid #f2f2f2;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
   }
 
   .btn-primary{
     display: none;
   }
+
+  #search_bar input{
+    width: 55%;
+  }    
 
   .fa-search{
     position: relative;
@@ -96,63 +50,8 @@
     border-radius: 1rem;
   }
 
-  #filtres{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
   #filtres>p{
-    border:none;
     width: 100%;
-  }
-
-  #filtres i{
-    position: absolute;
-    color: #0065FC;
-    font-size: 1em;
-    padding: 15px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-  }
-
-  #filtres>div strong{
-    padding-right: 15px;
-    padding-left: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-
-  #filtres>div p{
-    display: flex;
-    white-space: nowrap;
-    align-items: center;
-    border: 4px solid #f2f2f2;
-    border-radius: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-right: 15px;
-  }
-
-  #info_search_result{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  #info_search_result p{
-    padding-left: 10px;
-    margin-top: 8px;
-    margin-bottom: 2rem;
-  }
-
-  #info_search_result i{
-    color: #0065FC;
-    line-height: normal;
-    padding: 5px 10px 5px 10px;
-    border: 2px solid #f2f2f2;
-    border-radius: 50%;
   }
 
   /* **************************figure.hebergements*********************************** */
@@ -161,42 +60,13 @@
     margin-bottom: 1.5rem;
   }
 
-  .cardHebergement{
-    padding:0.4rem 0.4rem 1rem 0.4rem;
-    border-radius: 1rem;
-    margin-bottom: 1.2rem;
-    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-  }
-
-  .cardHebergement h3{
-    padding:0.4rem 0 0 1rem;
-    margin:0rem;
-    font-size: 1.3rem;
-  }
-
   .cardHebergement p{
     padding:0.4rem 0 0 1rem;
     margin: 0.5rem 0 0.5rem 0;
   }
-
   .cardHebergement img{
     width: 100%;
     height: 11rem;
-    border-radius:1rem 1rem 0 0;
-    object-fit: cover;
-  }
-
-  .fa-star{
-    color: #0065FC;
-    font-size: 1rem;
-  }
-
-  figcaption i:nth-child(3){
-    padding-left: 1rem;
-  }
-
-  .fa-star + .grey{
-    color: gainsboro;
   }
 
   /* *************************figure.populaires*********************************** */
@@ -219,13 +89,9 @@
 
   .cardPop{
     display: flex;
-  }
-
-  .cardPop{
     padding:0.4rem 0.4rem 0.4rem 0.4rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
-    /* margin-bottom: 1.2rem; */
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
   }
 
@@ -242,9 +108,6 @@
 
   .cardPop img{
     width: 50%;
-    height: 150px;
-    border-radius:1rem 0 0 1rem;
-    object-fit: cover;
   }
 
   .cardPop .fa-star{
@@ -265,33 +128,16 @@
   }
 
   #activites p{
-    margin-top: 0.5rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    padding-left: 1rem;
   }
 
   #activites img{
     width: 100%;
     height: 9rem;
-    object-fit: cover;
-    border-radius:1rem 1rem 0 0;
   }
+
   /* ************************FOOTER********************************** */
-  footer{
-    background-color: #f2f2f2;
-  }
-
-  footer strong{
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 0;;
-  }
-
-  footer li{
-    padding-top: 1rem;
-  }
-
   footer ul:last-child li:last-child{
     padding-bottom: 2rem;
   }

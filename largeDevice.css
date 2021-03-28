@@ -1,10 +1,3 @@
-*{
-    text-decoration: none;
-    font-family: raleway, sans-serif;
-    color: black;
-    list-style: none;
-  }
-
 body{
     margin:auto;
     max-width: 1600px;
@@ -18,25 +11,12 @@ header{
 @media screen and (min-width: 768px){
 
   /* ***************************HEADER************************ */
-  header{
-    display: flex;
-    align-items:center;
-  }
-  
   #logo{
       flex: auto;
-      padding: 20px;
-  }
-
-  #logo img{
-    width: 6em;
   }
 
   #s_inscrire{
     order: 1;
-    font-weight: bold;
-    font-size: 1em;
-    color: #0065FC;
   }
   
   header a{
@@ -44,43 +24,9 @@ header{
   }
 
   header>nav>a{
-    font-size: 1em;
-    text-align: center;
     border-top: 5px solid transparent;
-    color: black;
-    /* padding: 20px; */
   }
   
-  header>nav>a:hover{
-    color: #0065FC;
-    border-top: 5px solid #0065FC;
-    
-  }
-  #ville_et_filtres>form>p{
-    margin-top: 30px;
-  }
-
-  #search_bar input{
-    outline: none;
-    position: relative;
-    right: 0.5rem;
-    border-color: transparent;
-    padding: 1rem 3rem 1rem 3rem;
-    border-top: 2px solid #f2f2f2;
-    border-bottom: 2px solid #f2f2f2;
-    font-weight: bold;
-    font-size: medium;
-    margin-bottom: 30px;
-  }
-
-  .fa-map-marker{
-    padding: 1rem;
-    background-color: #f2f2f2;
-    border: 4px solid #f2f2f2;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
   .fa-search::before{
     display: none;
   }
@@ -104,63 +50,8 @@ header{
     flex: auto;
   }
 
-  #filtres{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
   #filtres>p{
-    border:none;
     padding-right: 30px;
-  }
-
-  #filtres i{
-    position: absolute;
-    color: #0065FC;
-    font-size: 1em;
-    padding: 15px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-  }
-
-  #filtres>div strong{
-    padding-right: 15px;
-    padding-left: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-
-  #filtres>div p{
-    display: flex;
-    white-space: nowrap;
-    align-items: center;
-    border: 4px solid #f2f2f2;
-    border-radius: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-right: 15px;
-  }
-
-  #info_search_result{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  #info_search_result p{
-    padding-left: 10px;
-    margin-top: 8px;
-    margin-bottom: 2rem;
-  }
-
-  #info_search_result i{
-    color: #0065FC;
-    line-height: normal;
-    padding: 5px 10px 5px 10px;
-    border: 2px solid #f2f2f2;
-    border-radius: 50%;
   }
 
   /* *******************************figure.hebergements*********************************** */
@@ -191,14 +82,10 @@ header{
   .cardHebergement{
     display:flex;
     flex-direction: column;
-    padding:0.4rem 0.4rem 0.4rem 0.4rem;
     margin:0.5em;
-    border-radius: 1rem;
-    margin-bottom: 1.2rem;
-    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
   }
 
-  .cardHebergement h3, .cardPop h3{
+  .cardPop h3{
     padding:0.4rem 0 0 1rem;
     margin:0rem;
     font-size: 1.3rem;
@@ -213,21 +100,6 @@ header{
   .cardHebergement img{
     width: 250px;
     height: 125px;
-    border-radius: 1rem 1rem 0 0;
-    object-fit: cover;
-  }
-  
-  .fa-star{
-    color: #0065FC;
-    font-size: 0.8rem;
-  }
-
-  figcaption i:nth-child(3){
-    padding-left: 1rem;
-  }
-
-  .fa-star + .grey{
-    color: gainsboro;
   }
 
   main{
@@ -248,9 +120,6 @@ header{
 
   /* *************************figure.populaires*********************************** */
   aside{
-    background-color: #f2f2f2;
-    /* padding: 1rem; */
-    margin: 0;
     width: 30%;
     border-radius: 2rem;
   }
@@ -260,38 +129,9 @@ header{
     padding-left: 2rem;
   }
 
-  aside figure{
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    /* padding-bottom: 2rem; */
-  }
-  
-  .cardPop{
-    display: flex;
-    padding:0.4rem 0.4rem 0.4rem 0.4rem;
-    margin-bottom: 1.5rem;
-    border-radius: 1rem;
-    /* margin-bottom: 1.2rem; */
-    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-  }
-
-  /* .cardPop h3{
-    padding:0.4rem 0 0 1rem;
-    margin:0rem;
-    font-size: 1.2rem;
-  } */
-
-  .cardPop p{
-    padding:0.4rem 0 0 1rem;
-    margin:0.5rem 0 0.5rem 0;
-  }
 
   .cardPop img{
     width: 40%;
-    height: 150px;
-    border-radius:1rem 0 0 1rem;
-    object-fit: cover;
   }
 
   .cardPop .fa-star{
@@ -307,16 +147,9 @@ header{
     grid-column-gap: 3rem;
   }
 
-  #activites p{
-    margin-top: 0.5rem;
-    padding-left: 1rem;
-  }
-
   #activites img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius:1rem 1rem 0 0;
   }
 
   #activites h1{
@@ -360,7 +193,6 @@ header{
 
   /* ************************FOOTER********************************** */
   footer{
-    background-color: #f2f2f2;
     display: flex;
     justify-content:flex-start;
   }
@@ -368,16 +200,6 @@ header{
   footer ul{
     width: 20%;
     margin-left: 6rem;
-  }
-
-  footer strong{
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 0;;
-  }
-
-  footer li{
-    padding-top: 1rem;
   }
 
   footer ul:first-child li:last-child{
