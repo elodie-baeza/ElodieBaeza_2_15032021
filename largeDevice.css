@@ -4,8 +4,8 @@ body{
 }
 
 header{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 @media screen and (min-width: 768px){
@@ -18,14 +18,21 @@ header{
   #s_inscrire{
     order: 1;
   }
-  
-  header a{
-      padding: 30px;
-  }
 
-  header>nav>a{
+  header a[id=s_inscrire], header nav{
+    padding: 2.3rem;
+    /* padding-bottom: 2rem; */
+  }
+  
+  header nav a{
+    padding: 2rem;
     border-top: 5px solid transparent;
   }
+
+  header nav a:hover{
+    color: #0065FC;
+    border-top: 0.3rem solid #0065FC;
+    }    
   
   .fa-search::before{
     display: none;

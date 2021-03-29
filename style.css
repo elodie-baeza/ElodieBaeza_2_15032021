@@ -7,7 +7,6 @@ list-style: none;
 
 #logo img{
 width: 6em;
-padding: 20px;
 }
 
 header{
@@ -27,12 +26,7 @@ text-align: center;
 color: black;
 }
 
-header>nav>a:hover{
-color: #0065FC;
-border-bottom: 5px solid #0065FC;
-}
-
-#ville_et_filtres>form>p{
+#villeFiltres>form>p{
 margin-top: 30px;
 }
 
