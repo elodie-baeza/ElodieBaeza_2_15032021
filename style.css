@@ -1,200 +1,200 @@
 *{
-text-decoration: none;
-font-family: raleway, sans-serif;
-color: black;
-list-style: none;
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    color: black;
+    list-style: none;
 }
 
 #logo img{
-width: 6em;
+    width: 6em;
 }
 
 header{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 #sInscrire{
-font-weight: bold;
-font-size: 1em;
-color: #0065FC;
+    font-weight: bold;
+    font-size: 1em;
+    color: #0065FC;
 }
 
 header>nav>a{
-font-size: 1em;
-text-align: center;
-color: black;
+    font-size: 1em;
+    text-align: center;
+    color: black;
 }
 
 #villeFiltres>form>p{
-margin-top: 30px;
+    margin-top: 30px;
 }
 
 #searchBar input{
-outline: none;
-position: relative;
-right: 0.5rem;
-border-color: transparent;
-padding: 1rem 1rem 1rem 1rem;
-border-top: 2px solid #f2f2f2;
-border-bottom: 2px solid #f2f2f2;
-font-weight: bold;
-font-size: medium;
-margin-bottom: 30px;
+    outline: none;
+    position: relative;
+    right: 0.5rem;
+    border-color: transparent;
+    padding: 1rem 1rem 1rem 1rem;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 30px;
 }
 
 .fa-map-marker{
-padding: 1rem;
-background-color: #f2f2f2;
-border: 4px solid #f2f2f2;
-border-top-left-radius: 1rem;
-border-bottom-left-radius: 1rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border: 4px solid #f2f2f2;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 #filtres{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #filtres>p{
-border:none;
+    border:none;
+}
+
+#filtres div a strong:hover{
+    color: #0065FC;
 }
 
 #filtres i{
-position: absolute;
-color: #0065FC;
-font-size: 1em;
-padding: 15px;
-background-color: #DEEBFF;
-border-radius: 50%;
+    position: absolute;
+    color: #0065FC;
+    font-size: 1em;
+    padding: 15px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
 }
 
-#filtres>div strong{
-padding-right: 10px;
-padding-left: 55px;
-padding-top: 10px;
-padding-bottom: 10px;
-}
-
-
-#filtres>div p{
-display: flex;
-white-space: nowrap;
-align-items: center;
-border: 4px solid #f2f2f2;
-border-radius: 30px;
-margin-top: 0;
-margin-bottom: 20px;
-margin-right: 15px;
+#filtres div a{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    border: 4px solid #f2f2f2;
+    border-radius: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding-right: 10px;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #infoSearchResult{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 #infoSearchResult p{
-padding-left: 10px;
-margin-top: 8px;
-margin-bottom: 2rem;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 2rem;
 }
 
 #infoSearchResult i{
-color: #0065FC;
-line-height: normal;
-padding: 5px 10px 5px 10px;
-border: 2px solid #f2f2f2;
-border-radius: 50%;
+    color: #0065FC;
+    line-height: normal;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
 }
 
 .cardHebergement{
-padding:0.4rem 0.4rem 1rem 0.4rem;
-border-radius: 1rem;
-margin-bottom: 1.2rem;
-box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    padding:0.4rem 0.4rem 1rem 0.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
 }
 
 .cardHebergement h3{
-padding:0.4rem 0 0 1rem;
-margin:0rem;
-font-size: 1.3rem;
+    padding:0.4rem 0 0 1rem;
+    margin:0rem;
+    font-size: 1.3rem;
 }
 
 .cardHebergement img{
-border-radius:1rem 1rem 0 0;
-object-fit: cover;
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
 }
 
 .fa-star{
-color: #0065FC;
-font-size: 1rem;
+    color: #0065FC;
+    font-size: 1rem;
 }
 
 figcaption i:nth-child(3){
-padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 .fa-star + .grey{
-color: gainsboro;
+    color: gainsboro;
 }
 
 .cardHebergement p{
-margin: 0.5rem 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 aside{
-background-color: #f2f2f2;
-margin: 0;
+    background-color: #f2f2f2;
+    margin: 0;
 }
 
 aside figure{
-background-color: white;
-margin-left: 20px;
-margin-right: 20px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .cardPop{
-display: flex;
-padding:0.4rem 0.4rem 0.4rem 0.4rem;
-margin-bottom: 1.5rem;
-border-radius: 1rem;
-/* margin-bottom: 1.2rem; */
-box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    display: flex;
+    padding:0.4rem 0.4rem 0.4rem 0.4rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    /* margin-bottom: 1.2rem; */
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
 }
 
 .cardPop p{
-padding:0.4rem 0 0 1rem;
-margin:0.5rem 0 0.5rem 0;
+    padding:0.4rem 0 0 1rem;
+    margin:0.5rem 0 0.5rem 0;
 }
 
 .cardPop img{
-height: 150px;
-border-radius:1rem 0 0 1rem;
-object-fit: cover;
+    height: 150px;
+    border-radius:1rem 0 0 1rem;
+    object-fit: cover;
 }
 
 #activites p{
-margin-top: 0.5rem;
-padding-left: 1rem;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
 }
 
 #activites img{
-object-fit: cover;
-border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+    border-radius:1rem 1rem 0 0;
 }
 
 footer{
-background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 footer strong{
-margin: 0;
-padding-top: 2rem;
-padding-bottom: 0;;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 0;;
 }
 
 footer li{
-padding-top: 1rem;
+    padding-top: 1rem;
 }
