@@ -20,7 +20,6 @@ h1{
 header{
     display: flex;
     align-items: center;
-    /* background-color: white; */
 }
 
 #sInscrire{
@@ -64,7 +63,6 @@ header>nav>a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: white;
 }
 
 #filtres>p{
@@ -207,10 +205,6 @@ aside>i{
     border-radius:1rem 0 0 1rem;
     object-fit: cover;
 }
-
-/* #activites, #hebergements{
-    background-color: white;
-} */
 
 footer{
     background-color: #f2f2f2;
