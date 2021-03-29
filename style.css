@@ -166,6 +166,11 @@ aside{
     margin: 0;
 }
 
+aside h1{
+    flex: auto;
+    margin-left: 1rem;
+  }
+
 aside figure{
     background-color: white;
     margin-left: 20px;
@@ -196,25 +201,6 @@ aside>i{
     border-radius:1rem 0 0 1rem;
     object-fit: cover;
 }
-
-#activites p{
-    margin: 0;
-    padding-left: 1rem;
-}
-
-#activites img{
-    object-fit: cover;
-    border-radius:1rem 1rem 0 0;
-}
-
-figcaption{
-    position: relative;
-}
-
-#activites figure{
-    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-    border-radius: 1rem;
-  }
 
 footer{
     background-color: #f2f2f2;

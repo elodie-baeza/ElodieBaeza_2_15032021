@@ -1,143 +1,150 @@
   body{
     margin: 0;
   }
-
+  
   main>*{
     margin-left: 1rem;
     margin-right: 1rem;
   }
-
+  
   #logo img{
     padding: 20px;
-    }    
-
-@media only screen and (max-width: 767.98px){
-
-  /* ***************************HEADER************************ */
-  header{
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  #sInscrire{
-    text-align: center;
-    padding: 20px;
-  }
-  
-  header>nav{
-    display: flex;
-    width: 100%;
-  }
-
-  header>nav>a{
-    border-bottom: 5px solid transparent;
-    width: 50%;
-    padding: 10px;
-  }
-
-  header>nav>a:hover{
-    color: #0065FC;
-    border-bottom: 5px solid #0065FC;
-    }    
-
-  .btn-primary{
-    display: none;
-  }
-
-  #searchBar input{
-    width: 58%;
   }    
-
-  .fa-search{
-    color: white;
-    padding: 15px;
-    background-color: #0065FC;
-    border: 4px solid #0065FC;
-    border-radius: 1rem;
-  }
-
-  #searchBar a:last-child{
-    position: relative;
-    left: -2rem;
-  }
-
-  #filtres>p{
-    width: 100%;
-  }
-
-  /* **************************figure.hebergements*********************************** */
-  #hebergements{
-    margin-top: 2rem;
-  }
-
-  #hebergements figure{
-    margin: 0;
-    margin-bottom: 1.5rem;
-  }
-
-  .cardHebergement p{
-    padding-left: 1rem;
-  }
-  .cardHebergement img{
-    width: 100%;
-    height: 8rem;
-  }
-
-  /* *************************figure.populaires*********************************** */
-  aside{
-    background-color: #f2f2f2;
-    margin: 0;
-  }
-
-  aside h1{
-    flex: auto;
-    margin-left: 1rem;
-  }
-
-  aside figure{
-    background-color: white;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    /* padding-bottom: 2rem; */
-  }
-
-  .cardPop{
-    display: flex;
-    padding:0.4rem 0.4rem 0.4rem 0.4rem;
-    margin-bottom: 1.5rem;
-    border-radius: 1rem;
-    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-  }
-
-  .cardPop h3{
-    padding:0.4rem 0 0 1rem;
-    margin:0rem;
-    font-size: 1.3rem;
-  }
-
-  .cardPop img{
-    width: 8rem;
-  }
   
-  /* ************************ACTIVITES*************************** */
-  #activites{
-    margin: 4rem 1rem 2rem 1rem;
+  @media only screen and (max-width: 767.98px){
+    
+    /* ***************************HEADER************************ */
+    header{
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    #sInscrire{
+      text-align: center;
+      padding: 20px;
+    }
+    
+    header>nav{
+      display: flex;
+      width: 100%;
+    }
+    
+    header>nav>a{
+      border-bottom: 5px solid transparent;
+      width: 50%;
+      padding: 10px;
+    }
+    
+    header>nav>a:hover{
+      color: #0065FC;
+      border-bottom: 5px solid #0065FC;
+    }    
+    
+    .btn-primary{
+      display: none;
+    }
+    
+    #searchBar input{
+      width: 58%;
+    }    
+    
+    .fa-search{
+      color: white;
+      padding: 15px;
+      background-color: #0065FC;
+      border: 4px solid #0065FC;
+      border-radius: 1rem;
+    }
+    
+    #searchBar a:last-child{
+      position: relative;
+      left: -2rem;
+    }
+    
+    #filtres>p{
+      width: 100%;
+    }
+    
+    /* **************************figure.hebergements*********************************** */
+    #hebergements{
+      margin-top: 2rem;
+    }
+    
+    #hebergements figure{
+      margin: 0;
+      margin-bottom: 1.5rem;
+    }
+    
+    .cardHebergement p{
+      padding-left: 1rem;
+    }
+    .cardHebergement img{
+      width: 100%;
+      height: 8rem;
+    }
+    
+    /* *************************figure.populaires*********************************** */
+    aside{
+      background-color: #f2f2f2;
+      margin: 0;
+    }
+    
+    aside figure{
+      background-color: white;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      /* padding-bottom: 2rem; */
+    }
+    
+    .cardPop{
+      display: flex;
+      padding:0.4rem 0.4rem 0.4rem 0.4rem;
+      margin-bottom: 1.5rem;
+      border-radius: 1rem;
+      box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    }
+    
+    .cardPop h3{
+      padding:0.4rem 0 0 1rem;
+      margin:0rem;
+      font-size: 1.3rem;
+    }
+    
+    .cardPop img{
+      width: 8rem;
+    }
+    
+    /* ************************ACTIVITES*************************** */
+    #activites{
+      margin: 4rem 1rem 2rem 1rem;
+    }
+    
+    #activites figure{
+      box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+      border-radius: 1rem;
+      margin: 0;
+      margin-bottom: 1.5rem;
+    }
+    
+    #activites img{
+      object-fit: cover;
+      border-radius:1rem 1rem 0 0;
+    }
+    
+    #activites p{
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
+    
+    figcaption{
+      position: relative;
+    }
+    
+    #activites img{
+      width: 100%;
+      height: 10rem;
+    }
+    
   }
-
-  #activites figure{
-    margin: 0;
-    margin-bottom: 1.5rem;
-  }
-
-  #activites p{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-  }
-
-  #activites img{
-    width: 100%;
-    height: 10rem;
-  }
-
-}
