@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+body{
+    background-color: white;
+}
+
 #logo img{
     width: 6em;
 }
@@ -16,7 +20,7 @@ h1{
 header{
     display: flex;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
 }
 
 #sInscrire{
@@ -204,9 +208,9 @@ aside>i{
     object-fit: cover;
 }
 
-#activites, #hebergements{
+/* #activites, #hebergements{
     background-color: white;
-}
+} */
 
 footer{
     background-color: #f2f2f2;
