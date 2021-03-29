@@ -3,8 +3,8 @@
   }
 
   main>*{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   #logo img{
@@ -20,7 +20,7 @@
     justify-content: space-between;
   }
 
-  #s_inscrire{
+  #sInscrire{
     text-align: center;
     padding: 20px;
   }
@@ -45,18 +45,21 @@
     display: none;
   }
 
-  #search_bar input{
-    width: 55%;
+  #searchBar input{
+    width: 58%;
   }    
 
   .fa-search{
-    position: relative;
-    left: -2rem;
     color: white;
     padding: 15px;
     background-color: #0065FC;
     border: 4px solid #0065FC;
     border-radius: 1rem;
+  }
+
+  #searchBar a:last-child{
+    position: relative;
+    left: -2rem;
   }
 
   #filtres>p{

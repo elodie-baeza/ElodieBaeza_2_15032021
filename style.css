@@ -14,7 +14,7 @@ display: flex;
 align-items: center;
 }
 
-#s_inscrire{
+#sInscrire{
 font-weight: bold;
 font-size: 1em;
 color: #0065FC;
@@ -30,7 +30,7 @@ color: black;
 margin-top: 30px;
 }
 
-#search_bar input{
+#searchBar input{
 outline: none;
 position: relative;
 right: 0.5rem;
@@ -71,8 +71,8 @@ border-radius: 50%;
 }
 
 #filtres>div strong{
-padding-right: 15px;
-padding-left: 60px;
+padding-right: 10px;
+padding-left: 55px;
 padding-top: 10px;
 padding-bottom: 10px;
 }
@@ -89,19 +89,19 @@ margin-bottom: 20px;
 margin-right: 15px;
 }
 
-#info_search_result{
+#infoSearchResult{
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 }
 
-#info_search_result p{
+#infoSearchResult p{
 padding-left: 10px;
 margin-top: 8px;
 margin-bottom: 2rem;
 }
 
-#info_search_result i{
+#infoSearchResult i{
 color: #0065FC;
 line-height: normal;
 padding: 5px 10px 5px 10px;
