@@ -161,6 +161,7 @@ header{
     width: 100%;
     background-color: white;
     border-radius: 0 0 1rem 1rem;
+    padding: 1rem 0 1rem 1rem;
   }
 
   #activites img{
@@ -168,10 +169,6 @@ header{
     border-radius:1rem;
     width: 100%;
     height: 100%;
-  }
-
-  #activites p{
-    padding-left: 1rem;
   }
 
   #activites h1{

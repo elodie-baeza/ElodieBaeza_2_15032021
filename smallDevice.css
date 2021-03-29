@@ -46,7 +46,7 @@
     }
     
     #searchBar input{
-      width: 58%;
+      width: 55%;
     }    
     
     .fa-search{
@@ -99,6 +99,7 @@
     
     .cardPop{
       display: flex;
+      width: 100%;
       padding:0.4rem 0.4rem 0.4rem 0.4rem;
       margin-bottom: 1.5rem;
       border-radius: 1rem;
@@ -117,7 +118,7 @@
     
     /* ************************ACTIVITES*************************** */
     #activites{
-      margin: 4rem 1rem 2rem 1rem;
+      margin: 2rem 1rem 2rem 1rem;
     }
     
     #activites figure{
@@ -132,10 +133,8 @@
       border-radius:1rem 1rem 0 0;
     }
     
-    #activites p{
-      padding-left: 1rem;
-      padding-bottom: 1rem;
-      padding-top: 1rem;
+    #activites figcaption{
+      padding: 0.5rem 0 1rem 1rem;
     }
     
     figcaption{
@@ -144,7 +143,7 @@
     
     #activites img{
       width: 100%;
-      height: 10rem;
+      height: 9rem;
     }
     
   }
