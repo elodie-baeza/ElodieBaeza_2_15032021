@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1199.98px)" href="smallDevice.css">
-    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="largeDevice.css">
+    <link rel="stylesheet" media="screen and (max-width: 767.98px)" href="smallDevice.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="largeDevice.css">
     <title>Reservia</title>
 </head>
 
@@ -24,8 +24,10 @@
     
     <main>
         <section id="villeFiltres">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <header>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </header>
             <form method="post" action="#">
                 <div id="searchBar">
                     <a href="https://www.google.fr/maps?hl=fr&tab=rl"> <i class="fa fa-map-marker" aria-hidden="true"></i></a>
@@ -61,8 +63,10 @@
         </section>
 
         <aside>
-            <h1>Les plus populaires</h1>
-            <i class="fa fa-line-chart" aria-hidden="true"></i>
+            <header>
+                <h1>Les plus populaires</h1>
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </header>
             <figure class="cardPop">
                 <img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo hôtel Le soleil du matin">
                 <figcaption>
@@ -108,7 +112,9 @@
         </aside>
 
         <section id="hebergements">
-            <h1>Hébergements à Marseille</h1>
+            <header>
+                <h1>Hébergements à Marseille</h1>
+            </header>
             <figure class="cardHebergement">
                 <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo auberge la Cannebière">
                 <figcaption>
@@ -202,7 +208,9 @@
         </section>
 
         <section>
-            <h1>Activités à Marseille</h1>
+            <header>
+                <h1>Activités à Marseille</h1>
+            </header>
             <div id="activites">
                 <figure class="activiteItem1">
                     <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port">
@@ -246,28 +254,28 @@
 
     <footer>
         <nav>
-            <ul>
-                <li><strong>A propos</strong></li>
+            <div>
+                <h3><strong>A propos</strong></h3>
                 <ul>
                     <li>Fonctionnement du site</li>
                     <li>Conditions générales de vente</li>
                     <li>Données et confidentialité</li>
                 </ul>
-            </ul>
-            <ul>
-                <li><strong>Nos hébergements</strong></li>
+            </div>
+            <div>
+                <h3><strong>Nos hébergements</strong></h3>
                 <ul>
                     <li>Charte qualité</li>
                     <li>Soumettre votre hôtel</li>
                 </ul>
-            </ul>
-            <ul>
-                <li><strong>Assistance</strong></li>
+            </div>
+            <div>
+                <h3><strong>Assistance</strong></h3>
                 <ul>
                     <li>Centre d'aide</li>
                     <li>Nous contacter</li>
                 </ul>
-            </ul>
+            </div>
         </nav>
     </footer>
 </body>

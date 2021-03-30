@@ -13,6 +13,11 @@ body{
     width: 6em;
 }
 
+figcaption{
+    position: relative;
+    bottom: 0;
+}
+
 h1{
     margin-block-start: 2rem;
 }
@@ -40,19 +45,22 @@ header>nav>a{
 
 #searchBar input{
     outline: none;
-    position: relative;
-    right: 0.5rem;
     border-color: transparent;
     padding: 1rem 1rem 1rem 1rem;
     border-top: 2px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
     font-weight: bold;
     font-size: medium;
+    margin: 0 2rem 0 1.7rem
+}
+
+form{
     margin-bottom: 30px;
 }
 
 .fa-map-marker{
     padding: 1rem;
+    margin-right: -2rem;
     background-color: #f2f2f2;
     border: 4px solid #f2f2f2;
     border-top-left-radius: 1rem;
@@ -86,7 +94,7 @@ header>nav>a{
     display: flex;
     white-space: nowrap;
     align-items: center;
-    border: 4px solid #f2f2f2;
+    border: 0.2rem solid #f2f2f2;
     border-radius: 30px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -193,6 +201,7 @@ aside>i{
     margin-bottom: 1.5rem;
     border-radius: 1rem;
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    height: 11rem;
 }
 
 .cardPop p{
@@ -201,29 +210,23 @@ aside>i{
 }
 
 .cardPop img{
-    height: 8.5rem;
+    /* width: 45%; */
+    /* height: 8.5rem; */
     border-radius:1rem 0 0 1rem;
     object-fit: cover;
 }
 
 footer{
     background-color: #f2f2f2;
-}
-
-footer strong{
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 0;;
-}
-
-footer nav>ul>ul>li{
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-footer nav>ul>li{
-    padding: 2rem 0 1rem 2rem;
+footer h3{
+    margin-top: 2rem;
+    padding-left: 2.5rem;
 }
 
-footer ul{
-    padding-inline-start: 2rem;
+footer li{
+    padding: 0.5rem 0 0.5rem 0rem;
 }

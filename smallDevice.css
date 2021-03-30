@@ -11,7 +11,7 @@
     padding: 20px;
   }    
   
-  @media only screen and (max-width: 1199.98px){
+  @media only screen and (max-width: 767.98px){
     
     /* ***************************HEADER************************ */
     header{
@@ -51,6 +51,7 @@
     
     .fa-search{
       color: white;
+      margin-left: -2rem;
       padding: 15px;
       background-color: #0065FC;
       border: 4px solid #0065FC;
@@ -89,6 +90,10 @@
       background-color: #f2f2f2;
       margin: 0;
     }
+
+    aside figcaption{
+      width: 45vw;
+    }
     
     aside figure{
       background-color: white;
@@ -113,7 +118,7 @@
     }
     
     .cardPop img{
-      width: 8rem;
+      width: 45vw;
     }
     
     /* ************************ACTIVITES*************************** */
@@ -136,11 +141,7 @@
     #activites figcaption{
       padding: 0.5rem 0 1rem 1rem;
     }
-    
-    figcaption{
-      position: relative;
-    }
-    
+        
     #activites img{
       width: 100%;
       height: 9rem;
