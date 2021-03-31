@@ -85,7 +85,7 @@ header{
     padding: 1rem;
   }
 
-  #hebergements>h1, #hebergements>strong{
+  #hebergements>h1, #hebergements>h3{
     width: 100%;
     padding-left: 2rem;
   }
