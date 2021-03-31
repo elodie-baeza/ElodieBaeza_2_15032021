@@ -15,7 +15,6 @@
     
     /* ***************************HEADER************************ */
   header{
-    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -62,10 +61,6 @@
     position: relative;
     left: -2rem;
   }
-
-  #filtres div{
-    margin-bottom: 1rem;
-  }
   
   #filtres>p{
     width: 100%;
@@ -91,12 +86,6 @@
     padding-bottom: 2rem;
   }
       
-  aside figure{
-    background-color: white;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .cardPop{
     height: 9rem;
   }
