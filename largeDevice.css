@@ -89,10 +89,6 @@ header{
     width: 100%;
     padding-left: 2rem;
   }
-
-  #hebergements>strong{
-    margin-block-start: 2rem;
-  }
   
   .cardHebergement{
     display:flex;
