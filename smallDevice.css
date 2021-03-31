@@ -3,8 +3,8 @@
   }
   
   main>*{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   
   #logo img{
@@ -14,137 +14,125 @@
   @media only screen and (max-width: 767.98px){
     
     /* ***************************HEADER************************ */
-    header{
-      width: 100%;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    
-    #sInscrire{
-      text-align: center;
-      padding: 20px;
-    }
-    
-    header>nav{
-      display: flex;
-      width: 100%;
-    }
-    
-    header>nav>a{
-      border-bottom: 5px solid transparent;
-      width: 50%;
-      padding: 10px;
-    }
-    
-    header>nav>a:hover{
-      color: #0065FC;
-      border-bottom: 5px solid #0065FC;
-    }    
-    
-    .btn-primary{
-      display: none;
-    }
-    
-    #searchBar input{
-      width: 55%;
-    }    
-    
-    .fa-search{
-      color: white;
-      margin-left: -2rem;
-      padding: 15px;
-      background-color: #0065FC;
-      border: 4px solid #0065FC;
-      border-radius: 1rem;
-    }
-    
-    #searchBar a:last-child{
-      position: relative;
-      left: -2rem;
-    }
-    
-    #filtres>p{
-      width: 100%;
-    }
-    
-    /* **************************figure.hebergements*********************************** */
-    #hebergements{
-      margin-top: 2rem;
-    }
-    
-    #hebergements figure{
-      margin: 0;
-      margin-bottom: 1.5rem;
-    }
-    
-    .cardHebergement p{
-      padding-left: 1rem;
-    }
-    .cardHebergement img{
-      width: 100%;
-      height: 8rem;
-    }
-    
-    /* *************************figure.populaires*********************************** */
-    aside{
-      background-color: #f2f2f2;
-      margin: 0;
-    }
-
-    aside figcaption{
-      width: 45vw;
-    }
-    
-    aside figure{
-      background-color: white;
-      margin-left: 1rem;
-      margin-right: 1rem;
-      /* padding-bottom: 2rem; */
-    }
-    
-    .cardPop{
-      display: flex;
-      width: 100%;
-      padding:0.4rem 0.4rem 0.4rem 0.4rem;
-      margin-bottom: 1.5rem;
-      border-radius: 1rem;
-      box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-    }
-    
-    .cardPop h3{
-      padding:0.4rem 0 0 1rem;
-      margin:0rem;
-      font-size: 1.3rem;
-    }
-    
-    .cardPop img{
-      width: 45vw;
-    }
-    
-    /* ************************ACTIVITES*************************** */
-    #activites{
-      margin: 2rem 1rem 2rem 1rem;
-    }
-    
-    #activites figure{
-      box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-      border-radius: 1rem;
-      margin: 0;
-      margin-bottom: 1.5rem;
-    }
-    
-    #activites img{
-      object-fit: cover;
-      border-radius:1rem 1rem 0 0;
-    }
-    
-    #activites figcaption{
-      padding: 0.5rem 0 1rem 1rem;
-    }
-        
-    #activites img{
-      width: 100%;
-      height: 9rem;
-    }
-    
+  header{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
+  
+  #sInscrire{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header>nav{
+    display: flex;
+    width: 100%;
+  }
+  
+  header>nav>a{
+    border-bottom: 5px solid transparent;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  header>nav>a:hover{
+    color: #0065FC;
+    border-bottom: 5px solid #0065FC;
+  }    
+  
+  .btn-primary{
+    display: none;
+  }
+  
+  #searchBar input{
+    width: 50%;
+  }    
+  
+  .fa-search{
+    color: white;
+    margin-left: -1rem;
+    padding: 15px;
+    background-color: #0065FC;
+    border: 2px solid #0065FC;
+    border-radius: 1rem;
+  }
+  
+  #searchBar a:last-child{
+    position: relative;
+    left: -2rem;
+  }
+
+  #filtres div{
+    margin-bottom: 1rem;
+  }
+  
+  #filtres>p{
+    width: 100%;
+  }
+  
+  /* **************************figure.hebergements*********************************** */
+  #hebergements{
+    margin-top: 2rem;
+  }
+  
+  #hebergements figure{
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cardHebergement img{
+    width: 100%;
+    height: 8rem;
+  }
+  
+  /* *************************figure.populaires*********************************** */
+  aside{
+    padding-bottom: 2rem;
+  }
+      
+  aside figure{
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .cardPop{
+    height: 9rem;
+  }
+      
+  .cardPop strong{
+    margin: 0rem;
+  }
+  
+  .cardPop img{
+    width: 35vw;
+  }
+  
+  /* ************************ACTIVITES*************************** */
+  #activites{
+    margin: 1rem 0 1rem 0;
+  }
+  
+  #activites figure{
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    border-radius: 1rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  #activites img{
+    object-fit: cover;
+    border-radius:1rem 1rem 0 0;
+  }
+  
+  #activites figcaption{
+    padding: 0.5rem 0 1rem 1rem;
+  }
+      
+  #activites img{
+    width: 100%;
+    height: 9rem;
+  }
+    
+}
