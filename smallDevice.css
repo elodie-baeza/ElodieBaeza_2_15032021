@@ -8,7 +8,7 @@
   }
   
   #logo img{
-    padding: 20px;
+    padding: 1.5rem;
   }    
   
   @media only screen and (max-width: 767.98px){
@@ -22,7 +22,7 @@
   
   #sInscrire{
     text-align: center;
-    padding: 20px;
+    padding: 1.5rem;
   }
   
   header>nav{
@@ -33,7 +33,7 @@
   header>nav>a{
     border-bottom: 5px solid transparent;
     width: 50%;
-    padding: 10px;
+    padding: 0.75rem;
   }
   
   header>nav>a:hover{
