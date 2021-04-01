@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 767.98px)" href="smallDevice.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="largeDevice.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1199.98px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="largeDevice.css">
     <title>Reservia</title>
 </head>
 
@@ -30,11 +31,13 @@
             </header>
             <form method="post" action="#">
                 <div id="searchBar">
-                    <a href="https://www.google.fr/maps?hl=fr&tab=rl"> <i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                    <input type="text" name="ville">
-                    <a href="#" class="btn-primary"><strong>Rechercher</strong></a>
-                    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                </div>
+                    <label for="ville">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                    </label>
+                    <input type="search" name="ville">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <span class="btn-primary"><strong>Rechercher</strong>
+                    </div>
             </form>
             <div id="filtres">
                 <p><strong>Filtres</strong></p>
@@ -212,37 +215,37 @@
                 <h1>Activités à Marseille</h1>
             </header>
             <div id="activites">
-                <figure class="activiteItem1">
+                <figure id="activiteItem1">
                     <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du vieux port">
                     <figcaption>
                         <strong>Vieux port</strong>
                     </figcaption>
                 </figure>
-                <figure class="activiteItem2">
+                <figure id="activiteItem2">
                     <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du Fort de Pomègues">
                     <figcaption>
                         <strong>Fort de Pomègues</strong>
                     </figcaption>
                 </figure>
-                <figure class="activiteItem3">
+                <figure id="activiteItem3">
                     <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo des ïles du Frioul">
                     <figcaption>
                         <strong>ïles du Frioul</strong>
                     </figcaption>
                 </figure>
-                <figure class="activiteItem4">
+                <figure id="activiteItem4">
                     <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo du Parc national des Calanques">
                     <figcaption>
                         <strong>Parc national des Calanques</strong>
                     </figcaption>
                 </figure>
-                <figure class="activiteItem5">
+                <figure id="activiteItem5">
                     <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre-Dame-de-la-Garde">
                     <figcaption>
                         <strong>Notre-Dame-de-la-Garde</strong>
                     </figcaption>
                 </figure>
-                <figure class="activiteItem6">
+                <figure id="activiteItem6">
                     <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp">
                     <figcaption>
                         <strong>Parc Longchamp</strong>

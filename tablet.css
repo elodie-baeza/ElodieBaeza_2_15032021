@@ -1,155 +1,145 @@
-body{
-    margin:auto;
-    max-width: 1600px;
-}
+@media screen and (min-width: 768px) and (max-width: 1199.98px){
 
-header{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
+    /* ***************************HEADER************************ */
+    #logo{
+        flex: auto;
+    }
 
-@media screen and (min-width: 1200px){
-
-  /* ***************************HEADER************************ */
-  #logo{
-      flex: auto;
-  }
-
-  #sInscrire{
+    #sInscrire{
     order: 1;
-  }
+    }
 
-  header a[id=s_inscrire], header nav{
+    header a[id=s_inscrire], header nav{
     padding: 2.3rem;
-  }
-  
-  header nav a{
+    }
+
+    header nav a{
     padding: 2rem;
     border-top: 5px solid transparent;
-  }
+    }
 
-  header nav a:hover{
+    header nav a:hover{
     color: #0065FC;
     border-top: 0.3rem solid #0065FC;
-  }    
-  
-  .fa-search::before{
+    }    
+
+    .fa-search::before{
     display: none;
-  }
+    }
 
-  .btn-primary{
-  color: white;
-  padding: 15px;
-  background-color: #0065FC;
-  border: 2px solid #0065FC;
-  border-top-right-radius: 1.2rem;
-  border-bottom-right-radius: 1.2rem;
-  }
-
-  .btn-primary strong{
+    .btn-primary{
     color: white;
-  }
+    padding: 15px;
+    background-color: #0065FC;
+    border: 2px solid #0065FC;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    }
 
-  #villeFiltres header{
+    .btn-primary strong{
+    color: white;
+    }
+
+    #villeFiltres header{
     margin-left: 0;
     flex-wrap: wrap;
-  }
+    }
 
-  #villeFiltres h1{
+    #villeFiltres h1{
     width: 100%;
-  }
+    }
 
-  #filtres{
+    #filtres{
     align-items: center;
-  }
+    }
 
-  #filtres>p{
+    #filtres>p{
     padding-right: 2rem;
-  }
+    }
 
-  .btn-primary{
+    .btn-primary{
     margin-left: -2.7rem;
-  }
+    }
 
-  /* *******************************figure.hebergements*********************************** */
-  #hebergements{
+    /* *******************************figure.hebergements*********************************** */
+    #hebergements{
     display: flex;
     background-color: #f2f2f2;
     border-radius: 2rem;
-    width: 66%;
+    width: 60%;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
     padding: 1rem;
-  }
+    }
 
-  #hebergements>h1, #hebergements>h3{
+    #hebergements>h1, #hebergements>h3{
     width: 100%;
     padding-left: 2rem;
-  }
-  
-  .cardHebergement{
+    }
+
+    .cardHebergement{
     display:flex;
-    width: 29%;
+    width: 43%;
     flex-direction: column;
     margin:1rem 0 1rem 0;
-  }
+    }
 
-  .cardPop{
+    .cardPop{
     height: 11rem;
-  }
+    }
 
-  .cardPop h3{
+    .cardPop h3{
     padding:0.4rem 0 0 1rem;
     margin:0rem;
     font-size: 1.3rem;
-  }
+    }
 
-  .cardHebergement img{
+    .cardHebergement img{
     width: 100%;
     height: 10rem;
-  }
+    }
 
-  main{
+    main{
     padding-left: 2rem;
     padding-right: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-  }
+    }
 
-  main aside{
+    main aside{
     order: 3;
-  }
+    }
 
-  section:nth-child(4){
+    section:nth-child(4){
     order: 3;
-  }
+    }
 
-  /* *************************figure.populaires*********************************** */
-  aside{
-    width: 27%;
+    /* *************************figure.populaires*********************************** */
+    aside{
+    width: 30%;
     border-radius: 2rem;
     padding: 1rem;
-    justify-content: space-around;
-  }
+    align-content: flex-start;
+    }
 
-  .cardPop img{
-    width: 6.5vw;
-  }
+    .cardPop img{
+    width: 40%;
+    }
 
-/* ************************ACTIVITES*************************** */
-  #activites{
+    /* ************************ACTIVITES*************************** */
+    #activites{
     width: 100%;
     margin-bottom: 3rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 14vw 3vw 3vw;
     grid-column-gap: 3rem;
-  }
+    }
 
-  #activites figure{
+    #activites figure{
     position: relative;
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
     border-radius: 1rem;
@@ -157,69 +147,69 @@ header{
     margin: 0;
     }
 
-  #activites figcaption{
+    #activites figcaption{
     position: absolute;
     width: 95.5%;
     background-color: white;
     border-radius: 0 0 1rem 1rem;
     padding: 1rem 0 1rem 1rem;
-  }
+    }
 
-  #activites img{
+    #activites img{
     object-fit: cover;
     border-radius:1rem;
     width: 100%;
     height: 100%;
-  }
+    }
 
-  #activites h1{
+    #activites h1{
     grid-column-end: span 4;
-  }
+    }
 
-  #activiteItem1{
+    #activiteItem1{
     grid-row-start: 1;
     grid-row-end: span 5;
-  }
+    }
 
-  #activiteItem2{
+    #activiteItem2{
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: span 2;
-  }
+    }
 
-  #activiteItem3{
+    #activiteItem3{
     grid-column-start: 2;
     grid-row-start: 4;
     grid-row-end: span 2;
-  }
+    }
 
-  #activiteItem4{
+    #activiteItem4{
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: span 5;
-  }
+    }
 
-  #activiteItem5{
+    #activiteItem5{
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: span 1;
-  }
+    }
 
-  #activiteItem6{
+    #activiteItem6{
     grid-column-start: 4;
     grid-row-start: 3;
     grid-row-end: span 3;
-  }
+    }
 
-  /* ************************FOOTER********************************** */
-  footer nav{
+    /* ************************FOOTER********************************** */
+    footer nav{
     display: flex;
     justify-content:flex-start;
-  }
+    }
 
-  footer div{
+    footer div{
     width: 20%;
     margin-left: 6rem;
-  }
-    
+    }
+
 }

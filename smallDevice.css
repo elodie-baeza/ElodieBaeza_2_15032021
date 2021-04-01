@@ -45,12 +45,13 @@
   }
   
   #searchBar input{
-    width: 50%;
+    width: 15rem;
+    padding-right: 25px;
   }    
   
   .fa-search{
     color: white;
-    margin-left: -1rem;
+    margin-left: -3.5rem;
     padding: 15px;
     background-color: #0065FC;
     border: 2px solid #0065FC;
