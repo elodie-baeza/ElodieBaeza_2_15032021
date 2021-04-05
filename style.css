@@ -23,12 +23,13 @@ figcaption{
     bottom: 0;
 }
 
-h1{
+/* h1{
     margin-top: 2rem;
-}
+} */
 
 header{
     display: flex;
+    align-items: center;
 }
 
 body>header{
@@ -196,10 +197,7 @@ aside figure{
 }
 
 aside header i{
-    margin-top: 1.5rem;
     font-size: 1.5rem;
-    margin-right: 1rem;
-    padding-top: 0.5rem;
 }
 
 aside>a, #hebergements>a, #activites>a{
