@@ -202,6 +202,10 @@ aside header i{
     padding-top: 0.5rem;
 }
 
+aside>a, #hebergements>a, #activites>a{
+    display: inline-flex;
+}
+
 .cardPop{
     margin: 1rem 0 1rem 0;
     display: flex;
@@ -209,6 +213,7 @@ aside header i{
     padding:0.4rem 0.4rem 0.4rem 0.4rem;
     border-radius: 1rem;
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+    /* margin-inline-end: -40px; */
 }
 
 .cardPop strong, .cardHebergement strong{
