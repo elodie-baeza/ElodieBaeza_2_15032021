@@ -23,16 +23,8 @@ figcaption{
     bottom: 0;
 }
 
-/* h1{
-    margin-top: 2rem;
-} */
-
-header{
+main header{
     display: flex;
-    align-items: center;
-}
-
-body>header{
     align-items: center;
 }
 
@@ -118,7 +110,7 @@ header>nav>a{
     align-items: center;
     border: 0.2rem solid #f2f2f2;
     border-radius: 2rem;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
     padding: 0.75rem 0.75rem 0.75rem 3.5rem;
 }
 
@@ -198,7 +190,7 @@ aside figure{
 
 aside header i{
     font-size: 1.5rem;
-}
+    }
 
 aside>a, #hebergements>a, #activites>a{
     display: contents;
@@ -211,10 +203,6 @@ aside>a, #hebergements>a, #activites>a{
     padding:0.4rem 0.4rem 0.4rem 0.4rem;
     border-radius: 1rem;
     box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
-}
-
-.cardPop strong, .cardHebergement strong{
-    font-size: 1.2rem;
 }
 
 .cardPop img{

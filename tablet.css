@@ -4,28 +4,33 @@
     }
 
     /* ***************************HEADER************************ */
-    #logo{
-        flex: auto;
+    body>header nav{
+        display: flex;
     }
 
-    #sInscrire{
+    #logo{
+        flex: auto;
+        text-align: left;
+    }
+
+    nav #sInscrire{
     order: 1;
     }
 
     body>header{
-        padding: 0 1rem 0 1rem;
+        padding: 0 2rem 0 2rem;
     }
 
-    header a[id=s_inscrire], header nav{
-    padding: 2.3rem;
-    }
-
-    header nav a{
+    header nav a:not(:first-child){
     padding: 2rem;
     border-top: 5px solid transparent;
     }
 
-    header nav a:hover{
+    header nav a:first-child{
+    padding-top: 2rem;
+    }
+
+    header nav a:nth-child(3):hover, header nav a:nth-child(4):hover{
     color: #0065FC;
     border-top: 0.3rem solid #0065FC;
     }    
