@@ -85,7 +85,7 @@ main, body>header{
     display: flex;
     background-color: #f2f2f2;
     border-radius: 2rem;
-    width: 60%;
+    width: 65%;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
@@ -136,14 +136,14 @@ main, body>header{
 
   /* *************************figure.populaires*********************************** */
   aside{
-    width: 28%;
+    width: 32%;
     border-radius: 2rem;
     padding: 2rem;
     justify-content: space-around;
   }
 
   .cardPop img{
-    width: 10.5vw;
+    width: 40%;
   }
 
 /* ************************ACTIVITES*************************** */
