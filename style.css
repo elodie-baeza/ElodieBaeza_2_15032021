@@ -1,0 +1,238 @@
+*{
+    text-decoration: none;
+    font-family: raleway, sans-serif;
+    color: black;
+    list-style: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: white;
+}
+
+main header{
+    width: 100%;
+}
+
+#logo img{
+    width: 6em;
+}
+
+figcaption{
+    padding: 0.5rem 0 0 1rem;
+    position: relative;
+    bottom: 0;
+}
+
+main header{
+    display: flex;
+    align-items: center;
+}
+
+#sInscrire{
+    font-weight: bold;
+    font-size: 1em;
+    color: #0065FC;
+}
+
+header>nav>a{
+    font-size: 1em;
+    text-align: center;
+}
+
+#searchBar{
+    margin: 1rem 0 1rem 0;
+}
+
+#searchBar input{
+    outline: none;
+    border-color: transparent;
+    padding: 1rem 1rem 1rem 1rem;
+    border-top: 0.1rem solid #f2f2f2;
+    border-bottom: 0.1rem solid #f2f2f2;
+    border-left: 0.1rem solid #f2f2f2;
+    font-weight: bold;
+    font-size: medium;
+    margin: 0 2rem 0 1.7rem
+}
+
+#searchBar i{
+    line-height: 1.13;
+}
+
+.fa-map-marker{
+    padding: 1rem;
+    margin-right: -2rem;
+    background-color: #f2f2f2;
+    border: 0.1rem solid #f2f2f2;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#villeFiltres h1{
+    margin-bottom: 0;
+}
+
+#villeFiltres p{
+    margin-top: 0.5rem;
+}
+
+#filtres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem 0 1rem 0;
+}
+
+#filtres div{
+    margin-bottom: 1rem;
+  }
+
+#filtres>p{
+    border:none;
+}
+
+#filtres div a strong:hover{
+    color: #0065FC;
+}
+
+#filtres i{
+    position: absolute;
+    color: #0065FC;
+    font-size: 1em;
+    padding: 1rem;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
+
+#filtres div a{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    border: 0.2rem solid #f2f2f2;
+    border-radius: 2rem;
+    margin-right: 0.6rem;
+    padding: 0.75rem 0.75rem 0.75rem 3.5rem;
+}
+
+#infoSearchResult{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+#infoSearchResult p{
+    padding-left: 0.5rem;
+    margin-bottom: 0;
+}
+
+#infoSearchResult i{
+    color: #0065FC;
+    line-height: normal;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    border: 0.1rem solid #f2f2f2;
+    border-radius: 50%;
+}
+
+.cardHebergement{
+    padding:0.4rem 0.4rem 0.4rem 0.4rem;
+    border: white;
+    border-radius: 1rem;
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+.cardHebergement h3{
+    padding-left: 1rem;
+    margin:0rem;
+    font-size: 1.3rem;
+}
+
+.cardHebergement img{
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+}
+
+.fa-star{
+    color: #0065FC;
+    font-size: 1rem;
+}
+
+.fa-star + .grey{
+    color: gainsboro;
+}
+
+.cardHebergement p{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+aside figcaption{
+    display: flex;
+    flex-direction: column;
+}
+
+aside figcaption p{
+    flex: auto;
+}
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+}
+
+aside h1{
+    flex: auto;
+  }
+
+aside figure{
+    background-color: white;
+}
+
+aside header i{
+    font-size: 1.5rem;
+    }
+
+aside>a, #hebergements>a, #activites>a{
+    display: contents;
+}
+
+.cardPop{
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    width: 100%;
+    padding:0.4rem 0.4rem 0.4rem 0.4rem;
+    border-radius: 1rem;
+    box-shadow:0.06rem 0.06rem 0.3rem rgb(173, 173, 173);
+}
+
+.cardPop img{
+    border-radius:1rem 0 0 1rem;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer h3{
+    margin-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+footer li{
+    padding: 0.5rem 0 0.5rem 0rem;
+}
+
+footer li a:hover{
+    color: gray;
+}
