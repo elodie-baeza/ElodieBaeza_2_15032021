@@ -25,7 +25,7 @@ main, body>header{
   }
 
   body>header{
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem 0 3rem;
 }
 
   header nav a:not(:first-child){
@@ -227,5 +227,8 @@ main, body>header{
   footer div{
     width: 33%;
   }
-    
+
+  footer ul{
+    padding-inline-start: 3rem;
+  }
 }

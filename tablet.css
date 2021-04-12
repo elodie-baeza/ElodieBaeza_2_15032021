@@ -229,7 +229,10 @@
 
     footer div{
     width: 33%;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     }
 
+    footer ul{
+        padding-inline-start: 3rem;
+    }
 }
