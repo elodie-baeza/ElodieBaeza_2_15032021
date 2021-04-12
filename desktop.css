@@ -24,10 +24,6 @@ main, body>header{
     order: 1;
   }
 
-  body>header{
-    padding: 0 2rem 0 3rem;
-}
-
   header nav a:not(:first-child){
     padding: 2rem;
     border-top: 5px solid transparent;
